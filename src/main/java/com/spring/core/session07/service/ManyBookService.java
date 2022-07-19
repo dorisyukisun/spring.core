@@ -3,9 +3,9 @@ package com.spring.core.session07.service;
 import com.spring.core.session07.exception.InsufficientAmount;
 import com.spring.core.session07.exception.InsufficientQuantity;
 
-public interface BookService {
+public interface ManyBookService {
 	
-	void buyOne (Integer wid, Integer bid) throws InsufficientAmount,InsufficientQuantity;
 	
+	void buyMany(Integer wid, Integer... bids)throws InsufficientAmount, InsufficientQuantity;
 
 }

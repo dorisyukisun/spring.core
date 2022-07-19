@@ -1,4 +1,4 @@
-package session06.copy;
+package com.spring.core.session06;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,5 @@
-package session06;
+package com.spring.core.session06
+;
 
 import java.util.Arrays;
 
